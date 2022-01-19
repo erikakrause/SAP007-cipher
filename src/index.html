@@ -14,7 +14,7 @@
   <header>
     <aside><img src="./img/woman-writing.jpg" alt=""></aside>
     <h1>Encode Diary</h1>
-    <p>Criptografia de texto para diário pessoal</p>
+    <p id="description">Criptografia de texto para diário pessoal</p>
   </header>
 
   <section>
@@ -25,13 +25,16 @@
 
     <main id="container">
       <div>
-        <label>Texto a ser cifrado:</label>
+        <label>Texto a ser cifrado</label>
         <textarea id="txtEncode" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
         <button type="submit" id="btnEncode">CIFRAR</button>
+      </div>
 
-        <label>Texto codificado:</label>
-        <textarea id="txtDeconde" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
+      <div>  
+        <label>Texto codificado</label>
+        <textarea id="txtDecode" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
         <button type="submit" id="btnDecode">DECIFRAR</button>
+      </div>
       </div>
     </main>
   </section>
