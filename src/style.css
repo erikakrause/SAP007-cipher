@@ -29,3 +29,35 @@ h2 {
   font-size: 20px;
   padding: 20px;
 }
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 10px;
+}
+
+label {
+  text-align: center;
+  display: flex;
+  padding: 12px;
+  font-size: 21px;
+}
+textarea {
+  border: 2px solid rgb(70, 45, 129);
+  justify-content: space-around;
+  font-size: 16px;
+}
+button {
+  float: right;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: rgb(70, 45, 129);
+}
