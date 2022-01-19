@@ -23,13 +23,13 @@ h1 {
   color: white;
 }
 
-#description {
+.description {
   font-size: 24px;
   padding: 10px;
   color: rgb(131, 184, 164);
 }
 
-#deslocamento h2 {
+.deslocamento h2 {
   text-align: center;
   justify-content: space-evenly;
 }
