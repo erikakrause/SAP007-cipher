@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">  
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
@@ -15,26 +15,27 @@
     <h1>Encode Diary</h1>
     <p>Criptografia de texto para diário pessoal</p>
   </header>
-  <main>
-    <section>
-      <div id="deslocamento">
-        <h2>Escolha o nº do deslocamento:</h2>
-        <input type="number" id="offset" value="1" required>
-      </div>
-    </section>
-    
-    <div id="container">
-      <label>Texto a ser cifrado:</label>
-      <textarea name="" id="txtEnconde" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
-      <button type="submit" id="btnEncode">CIFRAR</button>
 
-      <label>Texto codificado:</label>
-      <textarea name="" id="txtDecoonde" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
-      <button type="submit" id="btnDecode">DECIFRAR</button>
+  <section>
+    <div id="deslocamento">
+      <h2>Escolha o nº do deslocamento:</h2>
+      <input type="number" id="offset" value="1" required>
     </div>
-  </main>
+
+    <main id="container">
+      <div>
+        <label>Texto a ser cifrado:</label>
+        <textarea name="" id="txtEnconde" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
+        <button type="submit" id="btnEncode">CIFRAR</button>
+
+        <label>Texto codificado:</label>
+        <textarea name="" id="txtDecoonde" placeholder=" Escreva aqui" cols="30" rows="10"></textarea>
+        <button type="submit" id="btnDecode">DECIFRAR</button>
+      </div>
+    </main>
+  </section>
+
   <footer>@erikakrause</footer>
   <script src="index.js" type="module"></script>
 </body>
-
 </html>
