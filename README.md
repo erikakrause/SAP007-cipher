@@ -28,8 +28,8 @@ mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no s
 Bridget Jones é uma mulher de 32 anos que, em pleno Ano Novo, decide que já está mais do que na hora de tomar o controle de sua própria vida e começar a escrever um diário. Com isso, aproveita também para colocar suas opiniões sobre os mais diversos assuntos de sua nova vida. Porém, o seu erro foi perder acidentalmente o seu amigo confidente. E nos dias de hoje com toda a tecnologia divulgada amplamente, se ela tivesse o conhecimento da Cifra de César poderia escrever em seu diário de
 forma criptografada, e assim, não teria seus pensamentos relevados a terceiros.
 
-- **Banner do Filme**:
-  ![banner_filme](src/img/bridget_jones_banner.jpg)
+**Banner do Filme**:
+![banner_filme](src/img/bridget_jones_banner.jpg)
 
 ## 2. Projeto
 

@@ -12,5 +12,5 @@ function cifrar () {
 
   function decifrar () {
     const resultado = document.getElementById("txtDecode").value;
-    console.log()
+    console.log(resultado)
   } 
