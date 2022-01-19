@@ -7,6 +7,10 @@ document.getElementById("btnDecode").addEventListener("click", decifrar);
 function cifrar () {
   let texto = document.getElementById("txtEncode").value;
   
+  console.log(texto); 
 }
 
-  console.log(texto);  
+  function decifrar () {
+    const resultado = document.getElementById("txtDecode").value;
+    console.log()
+  } 
