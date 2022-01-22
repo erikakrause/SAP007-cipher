@@ -1,16 +1,9 @@
-import cipher from './cipher.js';
+//import cipher from './cipher.js';
 
 document.getElementById('btnEncode').addEventListener("click", cifrar);
-document.getElementById("btnDecode").addEventListener("click", decifrar);
-
 
 function cifrar () {
   let texto = document.getElementById("txtEncode").value;
   
   console.log(texto); 
 }
-
-  function decifrar () {
-    const resultado = document.getElementById("txtDecode").value;
-    console.log(resultado)
-  } 

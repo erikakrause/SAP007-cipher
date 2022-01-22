@@ -22,10 +22,12 @@ h1 {
   font-size: 3.5rem;
   color: white;
   padding: 24px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .description {
   font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   padding: 10px;
   color: rgb(131, 184, 164);
@@ -34,6 +36,7 @@ h1 {
 .deslocamento h2 {
   text-align: center;
   justify-content: space-evenly;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 input {
@@ -59,16 +62,18 @@ h2 {
 }
 
 label {
-  text-align: center;
+  
   display: flex;
   padding: 12px;
   font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 textarea {
   border: 2px solid rgb(169, 166, 125);
   justify-content: space-around;
   font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
