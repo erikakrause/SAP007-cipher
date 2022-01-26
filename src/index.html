@@ -29,22 +29,19 @@
     </div>
 
     <main id="container">
-      <div>
+      <div class="mensagem">
         <label>Texto a ser cifrado</label>
-        <textarea id="txtEncode" placeholder=" Escreva aqui" cols="40" rows="5"></textarea>
-        </div>
-        <div>
-          <button type="submit" id="btnEncode">CIFRAR</button>
-          <button type="submit" id="btnDecode">DECIFRAR</button>
-          <button  type="submit" id="btnClear">LIMPAR</button>
-        </div>
+        <textarea id="message" placeholder=" Escreva aqui" cols="40" rows="5"></textarea>
+      </div>
+      <div class="botao">
+        <button type="submit" id="btnEncode">CIFRAR</button>
+        <button type="submit" id="btnDecode">DECIFRAR</button>
+        <button type="submit" id="btnClear">LIMPAR</button>
+      </div>
 
-      
-
-      <div>
+      <div class="resultado">
         <label>Este é o seu texto criptogrado</label>
-        <textarea id="txtDecode" placeholder=" Escreva aqui" cols="40" rows="5"></textarea>
-
+        <textarea id="txtResult" cols="40" rows="5"></textarea>
       </div>
     </main>
   </section>
