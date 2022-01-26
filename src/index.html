@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device">
   <title>Cifra de César</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;400;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="./img/icon_padlock.svg" type="image/x-icon">
 </head>
@@ -31,13 +32,19 @@
       <div>
         <label>Texto a ser cifrado</label>
         <textarea id="txtEncode" placeholder=" Escreva aqui" cols="40" rows="5"></textarea>
-        <button type="submit" id="btnEncode">CIFRAR</button>
-      </div>
+        </div>
+        <div>
+          <button type="submit" id="btnEncode">CIFRAR</button>
+          <button type="submit" id="btnDecode">DECIFRAR</button>
+          <button  type="submit" id="btnClear">LIMPAR</button>
+        </div>
+
+      
 
       <div>
-        <label>Texto codificado</label>
+        <label>Este é o seu texto criptogrado</label>
         <textarea id="txtDecode" placeholder=" Escreva aqui" cols="40" rows="5"></textarea>
-        <button type="submit" id="btnDecode">DECIFRAR</button>
+
       </div>
     </main>
   </section>
