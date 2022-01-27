@@ -18,7 +18,7 @@ const cipher = {
     for (let i = 0; i < letras; i++) {
       let codigoAsc = texto.charCodeAt(i)
       let codigoLetra = 90
-      let valorDecode = ((codigoAsc + codigoLetra + offset)) % 26 + codigoLetra;
+      let valorDecode = ((codigoAsc - codigoLetra - offset)) % 26 + codigoLetra;
       resultadoDecode = resultadoDecode.concat(String.fromCharCode(valorDecode));
     
     }
