@@ -26,8 +26,8 @@ h1 {
 }
 
 .description {
-  font-size: 24px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
   padding: 10px;
   color: rgb(131, 184, 164);
@@ -37,6 +37,7 @@ h1 {
   text-align: center;
   justify-content: space-evenly;
   font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
 
 input {
@@ -62,18 +63,20 @@ h2 {
 }
 
 label {
-  
   display: flex;
   padding: 12px;
   font-size: 21px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 textarea {
   border: 2px solid rgb(169, 166, 125);
   justify-content: space-around;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.botao {
+  /*arrumar espaçamento e alinhar abaixo do text-area"*/
 }
 
 button {
@@ -88,4 +91,18 @@ button {
 
 button:hover {
   background-color: rgb(131, 166, 125);
+}
+
+footer {
+  justify-content: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.github {
+  width:2%;
+  color:white;  
 }
