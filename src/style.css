@@ -76,12 +76,16 @@ label {
 
 textarea {
   border: 2px solid rgb(169, 166, 125);
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .botao {
- 
+ flex-direction: column;
+ display: inline;
+ padding: 100px;
+ position:absolute;
+ justify-content: space-around;
 }
 
 button {
@@ -91,7 +95,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-  display: flex;
+  height:40px;
 }
 
 button:hover {
