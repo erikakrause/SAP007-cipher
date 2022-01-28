@@ -1,4 +1,4 @@
-import cipher from './cipher.js';
+import cipher from './cipher.js'; 
 
 document.getElementById('btnEncode').addEventListener("click", cifrar);
 document.getElementById('btnDecode').addEventListener("click", decifrar);
@@ -23,3 +23,8 @@ function decifrar () {
   
   console.log(texto); 
 
+function limpar () {
+  document.getElementById("message").value="";
+  document.getElementById("txtResult").value="";
+  document.getElementById("offset").value="1"
+}
