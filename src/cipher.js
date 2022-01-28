@@ -4,8 +4,8 @@ const cipher = {
     let resultadoEncode = "";
     let letras = texto.length
     for (let i = 0; i < letras; i++) {
-      let codigoAsc = texto.charCodeAt(i)
-      let codigoLetra = 65
+      let codigoAsc = texto.charCodeAt(i) 
+      let codigoLetra = 65 
       if (codigoAsc >= 65 && codigoAsc <= 90) {
         let valorEncode = ((codigoAsc + codigoLetra + offset)) % 26 + codigoLetra;
         resultadoEncode = resultadoEncode + String.fromCharCode(valorEncode);
