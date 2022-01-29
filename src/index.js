@@ -10,8 +10,6 @@ function cifrar () {
   let offset = Number(document.getElementById("offset").value);
       document.getElementById("txtResult").value=cipher.encode(offset, texto);
     } 
-  
-  console.log(texto); 
 
 
 function decifrar () {
@@ -21,7 +19,6 @@ function decifrar () {
       document.getElementById("txtResult").value=cipher.decode(offset, texto);
     }
   
-  console.log(texto); 
 
 function limpar () {
   document.getElementById("message").value="";

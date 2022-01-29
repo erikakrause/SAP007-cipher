@@ -14,7 +14,7 @@ body {
 
 img {
   float: right;
-  width: 41%;
+  width: 40%;
   height: 40%;
 }
 
@@ -85,7 +85,6 @@ textarea {
  display: inline;
  padding: 100px;
  position:absolute;
- justify-content: space-around;
 }
 
 button {
