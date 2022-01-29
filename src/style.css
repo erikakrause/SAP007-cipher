@@ -36,11 +36,11 @@ h1 {
 .deslocamento h2 {
   text-align: center;
   justify-content: space-evenly;
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: rgb(254,81, 124);
+  color: rgb(254, 81, 124);
   display: inline;
-  padding: 10px
+  padding: 10px;
 }
 
 input {
@@ -50,12 +50,6 @@ input {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-}
-h2 {
-  color: white;
-  font-size: 1rem;
-  font-size: 20px;
-  padding: 50px 0 10px 0;
 }
 
 #container {
@@ -69,9 +63,10 @@ label {
   display: flex;
   padding: 12px;
   font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 6, 68);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-left: 18px; 
-
+  justify-content: space-around;
 }
 
 textarea {
@@ -80,11 +75,12 @@ textarea {
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .botao {
- flex-direction: column;
- display: inline;
- padding: 100px;
- position:absolute;
+  flex-direction: column;
+  display: inline;
+  padding: 100px;
+  position: absolute;
 }
 
 button {
@@ -94,7 +90,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   border: none;
-  height:40px;
+  height: 40px;
 }
 
 button:hover {
@@ -104,6 +100,7 @@ button:hover {
 footer {
   justify-content: center;
   padding: 20px;
+  color: rgb(0, 6, 68);
 }
 
 a {
@@ -111,6 +108,5 @@ a {
 }
 
 .github {
-  width:2%;
-  color: rgb(0, 6, 68);  
+  color: rgb(0, 6, 68);
 }
