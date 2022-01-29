@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE">
+  <meta name="viewport" content="width=device">
+  <title>Cifra de César</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./img/icon_padlock.svg" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="./img/diary-writing.jpg" alt="pessoa escrevendo em um caderno">
+
+    <h1>Encode Diary</h1>
+    <p class="description">Criptografia de texto para diário pessoal</p>
+  </header>
+
+  <main>
+    <section class="deslocamento">
+      <h2>Escolha o nº do deslocamento:</h2>
+      <input type="number" id="offset" min="0" max="26" value="1" required>
+    </section>
+
+    <section id="container">
+      <div class="mensagem">
+        <label>Texto a ser cifrado</label>
+        <textarea id="message" placeholder=" Escreva aqui" cols="40" rows="8"></textarea>
+      </div>
+
+      <div class="resultado">
+        <label>Texto criptografado</label>
+        <textarea id="txtResult" cols="40" rows="8"></textarea>
+      </div>
+
+      <div class="botao">
+        <button type="submit" id="btnEncode">CIFRAR</button>
+        <button type="submit" id="btnDecode">DECIFRAR</button>
+        <button type="reset" id="btnClear">LIMPAR</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por
+      <a href="http://github.com/erikakrause" target="_blank">
+        <strong class="github">@erikakrause</strong></a>
+    </p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

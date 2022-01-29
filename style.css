@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(222, 223, 244);
+  text-align: center;
+  padding: 0.8rem;
+  width: 100%;
+  background-position: fixed;
+}
+
+img {
+  float: right;
+  width: 40%;
+  height: 40%;
+}
+
+h1 {
+  font-size: 3.2rem;
+  color: rgb(0, 6, 68);
+  padding: 24px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.description {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(29, 144, 171);
+}
+
+.deslocamento h2 {
+  text-align: center;
+  justify-content: space-evenly;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(254, 81, 124);
+  display: inline;
+  padding: 10px;
+}
+
+input {
+  width: 80px;
+  border: 2px solid rgb(254, 81, 124);
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 10px;
+}
+
+label {
+  display: flex;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(0, 6, 68);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+}
+
+textarea {
+  border: 2px solid rgb(169, 166, 125);
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botao {
+  flex-direction: column;
+  display: inline;
+  padding: 100px;
+  position: absolute;
+}
+
+button {
+  background-color: rgb(254, 81, 124);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+}
+
+button:hover {
+  background-color: rgb(95, 62, 117);
+}
+
+footer {
+  justify-content: center;
+  padding: 20px;
+  color: rgb(0, 6, 68);
+}
+
+a {
+  text-decoration: none;
+}
+
+.github {
+  color: rgb(0, 6, 68);
+}
