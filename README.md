@@ -23,20 +23,19 @@ com facilidade e não oferecem muita segurança na comunicação por si mesma,
 mas a cifra de César muitas vezes pode fazer parte de um sistema
 mais complexo de criptografia, como a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
-### História do usuário
+### 1.1 História de usuário
 
-Bridget Jones é uma mulher de 32 anos que, em pleno Ano Novo, decide que já está mais do que na hora de tomar o controle de sua própria vida e começar a escrever um diário. Com isso, aproveita também para colocar suas opiniões sobre os mais diversos assuntos de sua nova vida. Porém, o seu erro foi perder acidentalmente o seu amigo confidente. E nos dias de hoje com toda a tecnologia divulgada amplamente, se ela tivesse o conhecimento da Cifra de César poderia escrever em seu diário de
-forma criptografada, e assim, não teria seus pensamentos relevados a terceiros.
+Bridget Jones é uma mulher de 32 anos que, em pleno Ano Novo, decide que já está mais do que na hora de tomar o controle de sua própria vida, com isso, aproveita também para colocar suas opiniões sobre os mais diversos assuntos de sua nova vida em seu diário. Acidentalmente acaba perdendo o seu amigo confidente.
 
-**Banner do Filme**:
-![banner_filme](src/img/bridget_jones_banner.jpg)
+**Capa do Livro**:
+![capa-livro](src/img/capa-livro.jpg)
 
 ## 2. Projeto
 
-O projeto tem como objetivo criar um diário cifrado para atendeR o público que ainda utiliza o método tradicional de escrita e que prezam pela privacidade de escrever seus desejos e segredos para manter
-uma maior confidencialidade de duas informações, atuando por meio de criptografia.
-
+O projeto tem como objetivo criar uma página Web para criptografar o texto que será escrito em seu diário e assim manter a seguridade das suas opiniões alheias.
 ## 3. Funcionamento
+
+Na primeira caixa de texto você poderá inserir o seu texto, podendo ser ele com letras minúscula ou maíscula, porém neste momento a aplicação não aceita acentuações ou caracteres especiais, mas pode colocar ponto (.) e vírgula (,) para melhorar o fluxo do texto.
 
 ## 4. Protótipo
 
@@ -44,3 +43,11 @@ Rascunho feito no papel da estruturação simples do layout:
 ![prototipo](src/img/prototipo1.jpg)
 
 ## 5. Considerações finais
+Este é o primeiro projeto apresentado como requisito de aprendizagem para a Laboratoria.
+
+**Tecnologias utilizadas para p desenvolvimento do projeto:**
+- HTML 
+- CSS 
+- JavaScript 
+- Trello para planejamento do projeto
+
