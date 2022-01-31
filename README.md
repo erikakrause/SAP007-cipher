@@ -38,7 +38,7 @@ Neste contexto se ela conhecesse a Cifra de César, poderia ter seu diário cifr
 
 ## 3. Funcionamento
 
-Na primeira caixa de texto você poderá inserir o seu texto, podendo ser ele com letras minúscula ou maíscula, porém neste momento a aplicação não aceita acentuações ou caracteres especiais, mas pode colocar ponto (.) e vírgula (,) para melhor fluxo do texto. Na segunda caixa o seu texto aparecerá já criptografado. Você também poderá escolher o número de deslocamento.
+Na primeira caixa de texto você poderá inserir o seu texto, podendo ser ele com letras minúscula ou maíscula, porém neste momento a aplicação não aceita acentuações ou caracteres especiais, mas podem ser inserido ponto (.) e vírgula (,) para melhor fluxo do texto.  Você também poderá escolher o número de deslocamento. Na segunda caixa o seu texto aparecerá já crifrado ou decifrado conforme a necessidade.
 
 ## 4. Protótipo
 
